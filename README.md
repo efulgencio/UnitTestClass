@@ -1,5 +1,4 @@
 # UnitTestClass
-Ejemplo para testear una clase, como indicar que realice el measure y UI testing.
 
 Unit Testing
 
