@@ -3,7 +3,7 @@
 Unit Testing
 
 
-'''
+
 
     func testAppendLetterToModelString() {
         var modelString = ModelString(content: "palabra", actionToApply: .appendLetter)
@@ -12,7 +12,7 @@ Unit Testing
         XCTAssertEqual(modelString.content, "palabras")
     }
 
-'''
+
 
 Measure
 
