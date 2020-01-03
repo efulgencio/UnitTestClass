@@ -44,4 +44,13 @@ class UnitTestClassTests: XCTestCase {
         XCTAssertEqual(modelString.content, "palabras")
     }
     
+    func testConsumProcess() {
+        measure {
+            modelString.content = "abracadabra"
+            modelString.actionToApply = .countletter
+            modelString.applyAction(letter: "a")
+            XCTAssertEqual(modelString.content, "5")
+        }
+    }
+    
 }

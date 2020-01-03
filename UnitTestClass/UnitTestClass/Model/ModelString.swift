@@ -44,7 +44,13 @@ struct ModelString {
     }
     
     mutating func countLetter(value: String) {
-        self.content += value
+        var count = 0
+        for element in self.content {
+            if String(element) ==  value {
+                count += 1
+            }
+        }
+        self.content = String(count)
     }
     
     mutating func initEmptyValues() {
