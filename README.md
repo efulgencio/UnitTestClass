@@ -4,6 +4,7 @@ Unit Testing
 
 
 '''
+
     func testAppendLetterToModelString() {
         var modelString = ModelString(content: "palabra", actionToApply: .appendLetter)
         modelString.actionToApply = .appendLetter
